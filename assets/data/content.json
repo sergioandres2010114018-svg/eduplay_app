@@ -1,0 +1,1217 @@
+{
+ "version": 1,
+ "areas": [
+  {
+   "id": "mat",
+   "name": "Matemáticas",
+   "icon": "calculate",
+   "color": "#1E88E5",
+   "image": "assets/images/area_mat.jpg",
+   "lessons": [
+    {
+     "id": "mat9a",
+     "grade": 9,
+     "title": "Ecuaciones cuadráticas",
+     "summary": "Una ecuación cuadrática tiene la forma ax² + bx + c = 0 (a ≠ 0). Se resuelve por factorización o con la fórmula general. El discriminante indica cuántas soluciones reales existen.",
+     "points": [
+      "Forma general: ax² + bx + c = 0",
+      "Fórmula general: x = (−b ± √(b² − 4ac)) / 2a",
+      "Discriminante b² − 4ac: positivo → 2 soluciones reales; cero → 1; negativo → ninguna real"
+     ],
+     "example": "x² − 5x + 6 = 0 → (x − 2)(x − 3) = 0 → x = 2 o x = 3.",
+     "yt": "ecuaciones cuadráticas factorización fórmula general",
+     "questions": [
+      {
+       "q": "¿Cuáles son las soluciones de x² − 5x + 6 = 0?",
+       "o": [
+        "x = 1 y x = 6",
+        "x = 5 y x = 1",
+        "x = −2 y x = −3",
+        "x = 2 y x = 3"
+       ],
+       "a": 3,
+       "e": "Se factoriza como (x − 2)(x − 3) = 0, entonces x = 2 o x = 3."
+      },
+      {
+       "q": "¿Cuánto vale el discriminante de x² + 4x + 4 = 0?",
+       "o": [
+        "0",
+        "−8",
+        "16",
+        "8"
+       ],
+       "a": 0,
+       "e": "b² − 4ac = 16 − 16 = 0, por eso hay una única solución real (x = −2)."
+      },
+      {
+       "q": "Si el discriminante de una ecuación cuadrática es negativo, entonces…",
+       "o": [
+        "no tiene soluciones reales",
+        "tiene dos soluciones reales",
+        "tiene una solución real",
+        "siempre tiene solución x = 0"
+       ],
+       "a": 0,
+       "e": "Con discriminante negativo la raíz cuadrada no es un número real."
+      }
+     ],
+     "video": "assets/videos/mat9a.mp4"
+    },
+    {
+     "id": "mat9b",
+     "grade": 9,
+     "title": "Teorema de Pitágoras",
+     "summary": "En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos. La hipotenusa es el lado opuesto al ángulo recto y el más largo.",
+     "points": [
+      "c² = a² + b²",
+      "La hipotenusa es el lado más largo",
+      "Sirve para calcular distancias, alturas y diagonales"
+     ],
+     "example": "Catetos 3 y 4 → c² = 9 + 16 = 25 → c = 5.",
+     "yt": "teorema de pitágoras ejercicios",
+     "questions": [
+      {
+       "q": "Un triángulo rectángulo tiene catetos de 6 y 8. ¿Cuánto mide la hipotenusa?",
+       "o": [
+        "100",
+        "12",
+        "10",
+        "14"
+       ],
+       "a": 2,
+       "e": "6² + 8² = 36 + 64 = 100, y √100 = 10."
+      },
+      {
+       "q": "Una escalera de 5 m se apoya en una pared y su base está a 3 m de ella. ¿Qué altura alcanza?",
+       "o": [
+        "8 m",
+        "34 m",
+        "2 m",
+        "4 m"
+       ],
+       "a": 3,
+       "e": "h² = 5² − 3² = 25 − 9 = 16, entonces h = 4 m."
+      },
+      {
+       "q": "¿Cuál de estas ternas forma un triángulo rectángulo?",
+       "o": [
+        "2, 3, 4",
+        "4, 5, 6",
+        "5, 12, 13",
+        "6, 7, 8"
+       ],
+       "a": 2,
+       "e": "5² + 12² = 25 + 144 = 169 = 13²."
+      }
+     ],
+     "video": "assets/videos/mat9b.mp4"
+    },
+    {
+     "id": "mat10a",
+     "grade": 10,
+     "title": "Funciones lineales",
+     "summary": "Una función lineal se escribe y = mx + b. El valor m es la pendiente (inclinación de la recta) y b es el punto donde la recta corta el eje y.",
+     "points": [
+      "Pendiente entre dos puntos: m = (y₂ − y₁) / (x₂ − x₁)",
+      "b es el intercepto con el eje y",
+      "m > 0 la recta sube; m < 0 la recta baja"
+     ],
+     "example": "Puntos (1, 3) y (3, 7): m = (7 − 3)/(3 − 1) = 2, y la recta es y = 2x + 1.",
+     "yt": "función lineal pendiente intercepto",
+     "questions": [
+      {
+       "q": "¿Cuál es la pendiente de la recta que pasa por (0, 1) y (2, 5)?",
+       "o": [
+        "−2",
+        "4",
+        "2",
+        "1/2"
+       ],
+       "a": 2,
+       "e": "m = (5 − 1)/(2 − 0) = 4/2 = 2."
+      },
+      {
+       "q": "En y = −3x + 5, ¿dónde corta la recta al eje y?",
+       "o": [
+        "en y = 5",
+        "en el origen",
+        "en y = −3",
+        "en y = 3"
+       ],
+       "a": 0,
+       "e": "El término independiente b = 5 es el intercepto con el eje y."
+      },
+      {
+       "q": "Una recta con pendiente negativa…",
+       "o": [
+        "sube de izquierda a derecha",
+        "baja de izquierda a derecha",
+        "es horizontal",
+        "es vertical"
+       ],
+       "a": 1,
+       "e": "Si m < 0, al aumentar x el valor de y disminuye."
+      }
+     ],
+     "video": "assets/videos/mat10a.mp4"
+    },
+    {
+     "id": "mat10b",
+     "grade": 10,
+     "title": "Razones trigonométricas",
+     "summary": "En un triángulo rectángulo, las razones relacionan un ángulo con los lados: seno, coseno y tangente. Los ángulos de 30°, 45° y 60° aparecen con mucha frecuencia.",
+     "points": [
+      "sen θ = cateto opuesto / hipotenusa",
+      "cos θ = cateto adyacente / hipotenusa",
+      "tan θ = cateto opuesto / cateto adyacente"
+     ],
+     "example": "Si el cateto opuesto mide 3 y la hipotenusa 5, entonces sen θ = 3/5 = 0,6.",
+     "yt": "razones trigonométricas seno coseno tangente",
+     "questions": [
+      {
+       "q": "El coseno de un ángulo agudo se define como…",
+       "o": [
+        "hipotenusa / cateto adyacente",
+        "cateto opuesto / hipotenusa",
+        "cateto adyacente / hipotenusa",
+        "cateto opuesto / cateto adyacente"
+       ],
+       "a": 2,
+       "e": "cos θ = adyacente / hipotenusa."
+      },
+      {
+       "q": "Un triángulo rectángulo tiene catetos iguales a 4 y 4. ¿Cuánto vale tan θ?",
+       "o": [
+        "16",
+        "1",
+        "0",
+        "4"
+       ],
+       "a": 1,
+       "e": "tan θ = 4/4 = 1 (ángulo de 45°)."
+      },
+      {
+       "q": "¿Cuánto vale sen 30°?",
+       "o": [
+        "√2/2",
+        "√3/2",
+        "1/2",
+        "1"
+       ],
+       "a": 2,
+       "e": "Es un valor notable: sen 30° = 1/2."
+      }
+     ],
+     "video": "assets/videos/mat10b.mp4"
+    },
+    {
+     "id": "mat11a",
+     "grade": 11,
+     "title": "Estadística y probabilidad",
+     "summary": "La media es el promedio de los datos, la mediana es el valor central cuando se ordenan y la moda es el dato que más se repite. La probabilidad mide qué tan posible es un evento.",
+     "points": [
+      "Media = suma de datos / cantidad de datos",
+      "Probabilidad = casos favorables / casos posibles",
+      "La probabilidad siempre está entre 0 y 1"
+     ],
+     "example": "Datos 2, 3, 3, 5, 7 → media 4, mediana 3 y moda 3.",
+     "yt": "media mediana moda probabilidad básica",
+     "questions": [
+      {
+       "q": "¿Cuál es la media de 4, 6, 8 y 10?",
+       "o": [
+        "7",
+        "28",
+        "6",
+        "8"
+       ],
+       "a": 0,
+       "e": "(4 + 6 + 8 + 10) / 4 = 28 / 4 = 7."
+      },
+      {
+       "q": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número par?",
+       "o": [
+        "2/3",
+        "1/3",
+        "1/6",
+        "1/2"
+       ],
+       "a": 3,
+       "e": "Hay 3 pares (2, 4, 6) entre 6 resultados posibles: 3/6 = 1/2."
+      },
+      {
+       "q": "¿Cuál es la mediana de 9, 2, 7, 4 y 5?",
+       "o": [
+        "9",
+        "7",
+        "4",
+        "5"
+       ],
+       "a": 3,
+       "e": "Ordenados: 2, 4, 5, 7, 9. El valor central es 5."
+      }
+     ],
+     "video": "assets/videos/mat11a.mp4"
+    },
+    {
+     "id": "mat11b",
+     "grade": 11,
+     "title": "Exponenciales y logaritmos",
+     "summary": "La función exponencial y = aˣ crece o decrece muy rápido. El logaritmo es su operación inversa: log_a(x) = y significa que aʸ = x.",
+     "points": [
+      "log₂(8) = 3 porque 2³ = 8",
+      "log(x·y) = log x + log y",
+      "log(xⁿ) = n · log x"
+     ],
+     "example": "log₁₀(100) = 2 porque 10² = 100.",
+     "yt": "logaritmos propiedades exponenciales",
+     "questions": [
+      {
+       "q": "¿Cuánto vale log₁₀(1000)?",
+       "o": [
+        "3",
+        "2",
+        "10",
+        "100"
+       ],
+       "a": 0,
+       "e": "10³ = 1000, entonces el logaritmo es 3."
+      },
+      {
+       "q": "Una población de 100 bacterias se duplica cada hora. ¿Cuántas habrá a las 3 horas?",
+       "o": [
+        "800",
+        "300",
+        "600",
+        "1000"
+       ],
+       "a": 0,
+       "e": "100 · 2³ = 100 · 8 = 800."
+      },
+      {
+       "q": "log(a · b) es igual a…",
+       "o": [
+        "log a · log b",
+        "(log a) / (log b)",
+        "log a − log b",
+        "log a + log b"
+       ],
+       "a": 3,
+       "e": "El logaritmo de un producto es la suma de los logaritmos."
+      }
+     ],
+     "video": "assets/videos/mat11b.mp4"
+    }
+   ]
+  },
+  {
+   "id": "fis",
+   "name": "Física",
+   "icon": "bolt",
+   "color": "#43A047",
+   "image": "assets/images/area_fis.jpg",
+   "lessons": [
+    {
+     "id": "fis9a",
+     "grade": 9,
+     "title": "Movimiento rectilíneo uniforme",
+     "summary": "En el MRU el cuerpo se mueve en línea recta con velocidad constante, es decir, sin aceleración. La distancia recorrida es proporcional al tiempo.",
+     "points": [
+      "v = d / t",
+      "d = v · t",
+      "La aceleración es igual a cero"
+     ],
+     "example": "Un ciclista a 5 m/s durante 20 s recorre 100 m.",
+     "yt": "movimiento rectilíneo uniforme MRU",
+     "questions": [
+      {
+       "q": "Una moto va a 20 m/s durante 10 s. ¿Qué distancia recorre?",
+       "o": [
+        "20 m",
+        "2 m",
+        "200 m",
+        "30 m"
+       ],
+       "a": 2,
+       "e": "d = v · t = 20 · 10 = 200 m."
+      },
+      {
+       "q": "En un movimiento rectilíneo uniforme, la aceleración es…",
+       "o": [
+        "creciente",
+        "cero",
+        "constante y distinta de cero",
+        "negativa"
+       ],
+       "a": 1,
+       "e": "La velocidad no cambia, por lo tanto a = 0."
+      },
+      {
+       "q": "Un carro recorre 150 km en 3 h con velocidad constante. ¿Cuál es su velocidad?",
+       "o": [
+        "450 km/h",
+        "153 km/h",
+        "50 km/h",
+        "30 km/h"
+       ],
+       "a": 2,
+       "e": "v = d / t = 150 / 3 = 50 km/h."
+      }
+     ],
+     "video": "assets/videos/fis9a.mp4"
+    },
+    {
+     "id": "fis9b",
+     "grade": 9,
+     "title": "Leyes de Newton",
+     "summary": "Newton explicó cómo las fuerzas cambian el movimiento. La primera ley habla de la inercia, la segunda relaciona fuerza, masa y aceleración, y la tercera describe pares de acción y reacción.",
+     "points": [
+      "1ª ley: sin fuerza neta, el movimiento no cambia (inercia)",
+      "2ª ley: F = m · a",
+      "3ª ley: a toda acción corresponde una reacción igual y opuesta"
+     ],
+     "example": "Una fuerza de 10 N sobre una masa de 2 kg produce una aceleración de 5 m/s².",
+     "yt": "leyes de newton explicación",
+     "questions": [
+      {
+       "q": "¿Qué aceleración produce una fuerza de 20 N sobre una masa de 4 kg?",
+       "o": [
+        "5 m/s²",
+        "80 m/s²",
+        "16 m/s²",
+        "0,2 m/s²"
+       ],
+       "a": 0,
+       "e": "a = F / m = 20 / 4 = 5 m/s²."
+      },
+      {
+       "q": "Cuando un bus frena de golpe, los pasajeros se inclinan hacia adelante. Esto se explica por…",
+       "o": [
+        "la ley de la inercia",
+        "la ley de acción y reacción",
+        "la ley de Ohm",
+        "la gravitación universal"
+       ],
+       "a": 0,
+       "e": "Los cuerpos tienden a conservar su movimiento (primera ley)."
+      },
+      {
+       "q": "Al empujar una pared, sientes que ella te empuja. Esto es…",
+       "o": [
+        "la tercera ley de Newton",
+        "la primera ley de Newton",
+        "la ley de Hooke",
+        "la segunda ley de Newton"
+       ],
+       "a": 0,
+       "e": "Acción y reacción: fuerzas iguales y opuestas sobre cuerpos distintos."
+      }
+     ],
+     "video": "assets/videos/fis9b.mp4"
+    },
+    {
+     "id": "fis10a",
+     "grade": 10,
+     "title": "Caída libre",
+     "summary": "En caída libre, sin resistencia del aire, todos los cuerpos aceleran hacia la Tierra con la misma aceleración g ≈ 9,8 m/s² (se usa 10 m/s² para cálculos rápidos).",
+     "points": [
+      "v = v₀ + g · t",
+      "h = ½ · g · t²",
+      "La masa no cambia el tiempo de caída en el vacío"
+     ],
+     "example": "Una piedra soltada cae 2 s: v = 9,8 · 2 = 19,6 m/s y h = ½ · 9,8 · 4 = 19,6 m.",
+     "yt": "caída libre física ejercicios",
+     "questions": [
+      {
+       "q": "Un objeto se suelta desde el reposo. Con g = 10 m/s², ¿qué velocidad tiene a los 3 s?",
+       "o": [
+        "13 m/s",
+        "30 m/s",
+        "10 m/s",
+        "90 m/s"
+       ],
+       "a": 1,
+       "e": "v = g · t = 10 · 3 = 30 m/s."
+      },
+      {
+       "q": "Sin resistencia del aire, una pluma y una piedra soltadas a la vez…",
+       "o": [
+        "no caen",
+        "caen con la misma aceleración",
+        "la piedra cae más rápido",
+        "la pluma cae más rápido"
+       ],
+       "a": 1,
+       "e": "La aceleración de la gravedad no depende de la masa."
+      },
+      {
+       "q": "¿Qué altura recorre un objeto en 2 s de caída libre (g = 10 m/s²)?",
+       "o": [
+        "40 m",
+        "10 m",
+        "5 m",
+        "20 m"
+       ],
+       "a": 3,
+       "e": "h = ½ · 10 · 2² = 20 m."
+      }
+     ],
+     "video": "assets/videos/fis10a.mp4"
+    },
+    {
+     "id": "fis10b",
+     "grade": 10,
+     "title": "Trabajo y energía",
+     "summary": "El trabajo es la fuerza aplicada en la dirección del movimiento multiplicada por la distancia. La energía se transforma, pero no se crea ni se destruye.",
+     "points": [
+      "W = F · d (se mide en julios, J)",
+      "Energía cinética: Ec = ½ · m · v²",
+      "Energía potencial: Ep = m · g · h"
+     ],
+     "example": "Una caja de 2 kg a 3 m de altura (g = 10) tiene Ep = 2 · 10 · 3 = 60 J.",
+     "yt": "trabajo energía cinética potencial",
+     "questions": [
+      {
+       "q": "¿Qué trabajo realiza una fuerza de 50 N que mueve un objeto 4 m en su misma dirección?",
+       "o": [
+        "12,5 J",
+        "200 J",
+        "54 J",
+        "46 J"
+       ],
+       "a": 1,
+       "e": "W = F · d = 50 · 4 = 200 J."
+      },
+      {
+       "q": "¿Cuál es la energía cinética de un cuerpo de 2 kg que se mueve a 3 m/s?",
+       "o": [
+        "9 J",
+        "6 J",
+        "3 J",
+        "18 J"
+       ],
+       "a": 0,
+       "e": "Ec = ½ · 2 · 3² = 9 J."
+      },
+      {
+       "q": "En una montaña rusa, cuando el carrito baja, la energía potencial se transforma en…",
+       "o": [
+        "energía cinética",
+        "energía nuclear",
+        "masa",
+        "fuerza"
+       ],
+       "a": 0,
+       "e": "Al bajar pierde altura (Ep) y gana velocidad (Ec)."
+      }
+     ],
+     "video": "assets/videos/fis10b.mp4"
+    },
+    {
+     "id": "fis11a",
+     "grade": 11,
+     "title": "Ley de Ohm y circuitos",
+     "summary": "La ley de Ohm relaciona voltaje, corriente y resistencia. En un circuito en serie las resistencias se suman y la corriente es la misma en todo el circuito.",
+     "points": [
+      "V = I · R",
+      "En serie: R total = R₁ + R₂",
+      "Potencia eléctrica: P = V · I"
+     ],
+     "example": "Una batería de 12 V conectada a 4 Ω produce I = 12 / 4 = 3 A.",
+     "yt": "ley de ohm circuitos serie paralelo",
+     "questions": [
+      {
+       "q": "¿Qué corriente circula por una resistencia de 3 Ω conectada a 9 V?",
+       "o": [
+        "27 A",
+        "3 A",
+        "12 A",
+        "6 A"
+       ],
+       "a": 1,
+       "e": "I = V / R = 9 / 3 = 3 A."
+      },
+      {
+       "q": "Dos resistencias de 5 Ω y 10 Ω en serie equivalen a…",
+       "o": [
+        "15 Ω",
+        "5 Ω",
+        "50 Ω",
+        "3,3 Ω"
+       ],
+       "a": 0,
+       "e": "En serie se suman: 5 + 10 = 15 Ω."
+      },
+      {
+       "q": "¿Qué potencia consume un aparato de 10 V por el que circulan 2 A?",
+       "o": [
+        "8 W",
+        "12 W",
+        "5 W",
+        "20 W"
+       ],
+       "a": 3,
+       "e": "P = V · I = 10 · 2 = 20 W."
+      }
+     ],
+     "video": "assets/videos/fis11a.mp4"
+    },
+    {
+     "id": "fis11b",
+     "grade": 11,
+     "title": "Ondas y sonido",
+     "summary": "Una onda transporta energía sin transportar materia. El sonido es una onda mecánica longitudinal: necesita un medio (aire, agua, sólidos) y no se propaga en el vacío.",
+     "points": [
+      "v = λ · f",
+      "La frecuencia se mide en hercios (Hz)",
+      "El sonido en el aire viaja a unos 340 m/s"
+     ],
+     "example": "Con f = 170 Hz y v = 340 m/s, la longitud de onda es λ = 340 / 170 = 2 m.",
+     "yt": "ondas sonido frecuencia longitud de onda",
+     "questions": [
+      {
+       "q": "¿En cuál de estos lugares NO se propaga el sonido?",
+       "o": [
+        "en el agua",
+        "en el aire",
+        "en el vacío",
+        "en una pared de concreto"
+       ],
+       "a": 2,
+       "e": "El sonido necesita un medio material para propagarse."
+      },
+      {
+       "q": "Una onda de 50 Hz tiene longitud de onda de 4 m. ¿Cuál es su velocidad?",
+       "o": [
+        "54 m/s",
+        "12,5 m/s",
+        "200 m/s",
+        "46 m/s"
+       ],
+       "a": 2,
+       "e": "v = λ · f = 4 · 50 = 200 m/s."
+      },
+      {
+       "q": "La frecuencia de una onda se mide en…",
+       "o": [
+        "newtons (N)",
+        "hercios (Hz)",
+        "julios (J)",
+        "vatios (W)"
+       ],
+       "a": 1,
+       "e": "1 Hz equivale a un ciclo por segundo."
+      }
+     ],
+     "video": "assets/videos/fis11b.mp4"
+    }
+   ]
+  },
+  {
+   "id": "esp",
+   "name": "Español y Lectura Crítica",
+   "icon": "menu_book",
+   "color": "#FB8C00",
+   "image": "assets/images/area_esp.jpg",
+   "lessons": [
+    {
+     "id": "esp9a",
+     "grade": 9,
+     "title": "Tipos de texto",
+     "summary": "El texto narrativo cuenta hechos con personajes, tiempo y espacio. El expositivo informa o explica. El argumentativo defiende una tesis con razones. El instructivo indica pasos para hacer algo.",
+     "points": [
+      "Narrativo: cuenta una historia",
+      "Expositivo: explica o informa",
+      "Argumentativo: defiende una idea · Instructivo: da pasos"
+     ],
+     "example": "«Para preparar arroz, primero lave el grano…» es un texto instructivo.",
+     "yt": "tipos de texto narrativo expositivo argumentativo",
+     "questions": [
+      {
+       "q": "Un texto que defiende una opinión con razones es…",
+       "o": [
+        "argumentativo",
+        "descriptivo",
+        "instructivo",
+        "narrativo"
+       ],
+       "a": 0,
+       "e": "El texto argumentativo busca convencer con argumentos."
+      },
+      {
+       "q": "«Había una vez un niño que vivía junto al río…» es el inicio de un texto…",
+       "o": [
+        "instructivo",
+        "narrativo",
+        "argumentativo",
+        "expositivo"
+       ],
+       "a": 1,
+       "e": "Presenta personajes, tiempo y espacio propios de una narración."
+      },
+      {
+       "q": "Una receta de cocina es un texto…",
+       "o": [
+        "argumentativo",
+        "narrativo",
+        "lírico",
+        "instructivo"
+       ],
+       "a": 3,
+       "e": "Da pasos ordenados para lograr un resultado."
+      }
+     ],
+     "video": "assets/videos/esp9a.mp4"
+    },
+    {
+     "id": "esp9b",
+     "grade": 9,
+     "title": "Figuras literarias",
+     "summary": "Las figuras literarias embellecen el lenguaje. La metáfora identifica dos elementos sin «como»; el símil los compara con «como» o «cual»; la hipérbole exagera; la personificación da cualidades humanas a cosas o animales.",
+     "points": [
+      "Metáfora: «tus ojos son luceros»",
+      "Símil: «fuerte como un roble»",
+      "Hipérbole: exageración · Personificación: cualidades humanas"
+     ],
+     "example": "«El viento susurraba entre los árboles» es una personificación.",
+     "yt": "figuras literarias metáfora símil hipérbole",
+     "questions": [
+      {
+       "q": "«Es fuerte como un roble» es un ejemplo de…",
+       "o": [
+        "metáfora",
+        "personificación",
+        "hipérbole",
+        "símil"
+       ],
+       "a": 3,
+       "e": "Compara usando la palabra «como»."
+      },
+      {
+       "q": "«Te lo he dicho un millón de veces» es una…",
+       "o": [
+        "antítesis",
+        "personificación",
+        "hipérbole",
+        "metáfora"
+       ],
+       "a": 2,
+       "e": "Exagera para dar énfasis."
+      },
+      {
+       "q": "«Tus ojos son dos luceros» es una…",
+       "o": [
+        "metáfora",
+        "símil",
+        "onomatopeya",
+        "hipérbole"
+       ],
+       "a": 0,
+       "e": "Identifica los ojos con luceros sin usar «como»."
+      }
+     ],
+     "video": "assets/videos/esp9b.mp4"
+    },
+    {
+     "id": "esp10a",
+     "grade": 10,
+     "title": "Idea principal y propósito",
+     "summary": "La idea principal es la información más importante del texto; las ideas secundarias la apoyan. El propósito comunicativo puede ser informar, persuadir, entretener o instruir.",
+     "points": [
+      "Idea principal: resume el mensaje central",
+      "Propósito: informar, persuadir, entretener o instruir",
+      "Pregúntate: ¿qué quiere lograr el autor?"
+     ],
+     "example": "Un aviso que dice «Vote este domingo, su voto cuenta» tiene propósito persuasivo.",
+     "yt": "idea principal propósito comunicativo lectura crítica",
+     "questions": [
+      {
+       "q": "La idea principal de un texto es…",
+       "o": [
+        "un ejemplo cualquiera",
+        "el título únicamente",
+        "la que resume su mensaje central",
+        "el primer párrafo siempre"
+       ],
+       "a": 2,
+       "e": "Las demás ideas giran alrededor de ella."
+      },
+      {
+       "q": "Un aviso que dice «Vote este domingo, su voto cuenta» busca principalmente…",
+       "o": [
+        "narrar",
+        "persuadir",
+        "describir",
+        "instruir"
+       ],
+       "a": 1,
+       "e": "Intenta convencer al lector de actuar."
+      },
+      {
+       "q": "Una noticia que reporta un hecho tiene como propósito…",
+       "o": [
+        "entretener",
+        "informar",
+        "burlarse",
+        "persuadir"
+       ],
+       "a": 1,
+       "e": "La noticia comunica hechos de actualidad."
+      }
+     ],
+     "video": "assets/videos/esp10a.mp4"
+    },
+    {
+     "id": "esp10b",
+     "grade": 10,
+     "title": "Conectores y cohesión",
+     "summary": "Los conectores unen ideas y dan coherencia al texto: adición (además), oposición (sin embargo, pero), causa (porque, ya que), consecuencia (por lo tanto, así que) y ejemplo (por ejemplo).",
+     "points": [
+      "Adición: además, también",
+      "Oposición: pero, sin embargo",
+      "Causa: porque · Consecuencia: por lo tanto"
+     ],
+     "example": "«Estudié mucho; por lo tanto, aprobé el examen» usa un conector de consecuencia.",
+     "yt": "conectores textuales cohesión coherencia",
+     "questions": [
+      {
+       "q": "«Quería salir, ____ estaba lloviendo.» ¿Qué conector completa mejor la frase?",
+       "o": [
+        "es decir",
+        "además",
+        "sin embargo",
+        "por ejemplo"
+       ],
+       "a": 2,
+       "e": "Expresa oposición entre querer salir y la lluvia."
+      },
+      {
+       "q": "«Por lo tanto» es un conector de…",
+       "o": [
+        "oposición",
+        "ejemplo",
+        "consecuencia",
+        "causa"
+       ],
+       "a": 2,
+       "e": "Introduce el resultado de lo dicho antes."
+      },
+      {
+       "q": "«Llegué tarde ____ se dañó el bus.» ¿Qué conector expresa causa?",
+       "o": [
+        "pero",
+        "porque",
+        "aunque",
+        "sin embargo"
+       ],
+       "a": 1,
+       "e": "«Porque» introduce la razón del hecho."
+      }
+     ],
+     "video": "assets/videos/esp10b.mp4"
+    },
+    {
+     "id": "esp11a",
+     "grade": 11,
+     "title": "El texto argumentativo",
+     "summary": "Un texto argumentativo tiene tesis (la postura del autor), argumentos (razones, datos, ejemplos, citas de autoridad) y conclusión. Evaluar su calidad implica revisar si los argumentos realmente apoyan la tesis.",
+     "points": [
+      "Tesis: la postura que se defiende",
+      "Argumentos: de datos, de autoridad, de ejemplo",
+      "Conclusión: cierra y refuerza la tesis"
+     ],
+     "example": "Tesis: «Los colegios deben dar más tiempo a la lectura». Argumento: «Leer mejora la comprensión de textos».",
+     "yt": "texto argumentativo tesis argumentos",
+     "questions": [
+      {
+       "q": "La tesis de un texto argumentativo es…",
+       "o": [
+        "el final de la historia",
+        "la postura que defiende el autor",
+        "una definición del diccionario",
+        "un dato estadístico"
+       ],
+       "a": 1,
+       "e": "Es la idea central que se quiere demostrar."
+      },
+      {
+       "q": "«Según expertos en salud, dormir 8 horas mejora el rendimiento» es un argumento…",
+       "o": [
+        "emocional",
+        "de contradicción",
+        "de ejemplo",
+        "de autoridad"
+       ],
+       "a": 3,
+       "e": "Se apoya en la opinión de especialistas."
+      },
+      {
+       "q": "Usar cifras de una encuesta para apoyar una idea es un argumento…",
+       "o": [
+        "de ironía",
+        "de analogía",
+        "de autoridad",
+        "de datos (estadístico)"
+       ],
+       "a": 3,
+       "e": "Se apoya en información numérica verificable."
+      }
+     ],
+     "video": "assets/videos/esp11a.mp4"
+    },
+    {
+     "id": "esp11b",
+     "grade": 11,
+     "title": "Falacias y lectura crítica",
+     "summary": "Una falacia es un razonamiento que parece válido pero no lo es. Leer críticamente es cuestionar la fuente, la intención del autor y la evidencia que presenta.",
+     "points": [
+      "Ad hominem: atacar a la persona y no a su argumento",
+      "Generalización apresurada: concluir con muy pocos casos",
+      "Lectura crítica: evaluar fuente, intención y evidencia"
+     ],
+     "example": "«No creas su propuesta porque es muy joven» es una falacia ad hominem.",
+     "yt": "falacias lógicas lectura crítica ICFES",
+     "questions": [
+      {
+       "q": "«Dos estudiantes de ese colegio copiaron, así que todos son tramposos». Esto es una…",
+       "o": [
+        "metáfora",
+        "falacia ad hominem",
+        "tesis",
+        "generalización apresurada"
+       ],
+       "a": 3,
+       "e": "Se concluye sobre todos con solo dos casos."
+      },
+      {
+       "q": "Leer críticamente implica…",
+       "o": [
+        "evaluar la fuente, la intención y las evidencias",
+        "memorizar el texto",
+        "leer solo el título",
+        "aceptar todo lo que dice el autor"
+       ],
+       "a": 0,
+       "e": "Se analiza y cuestiona lo que se lee."
+      },
+      {
+       "q": "Una falacia ad hominem consiste en…",
+       "o": [
+        "citar a un experto",
+        "atacar a la persona y no a su argumento",
+        "usar datos confiables",
+        "resumir el texto"
+       ],
+       "a": 1,
+       "e": "Se desvía la discusión hacia quien habla."
+      }
+     ],
+     "video": "assets/videos/esp11b.mp4"
+    }
+   ]
+  },
+  {
+   "id": "soc",
+   "name": "Ciencias Sociales",
+   "icon": "public",
+   "color": "#8E24AA",
+   "image": "assets/images/area_soc.jpg",
+   "lessons": [
+    {
+     "id": "soc9a",
+     "grade": 9,
+     "title": "Constitución de 1991",
+     "summary": "La Constitución Política de 1991 definió a Colombia como Estado social de derecho, democrático y participativo. Creó la acción de tutela y varios mecanismos de participación ciudadana.",
+     "points": [
+      "Acción de tutela: protege derechos fundamentales",
+      "Mecanismos: voto, plebiscito, referendo, consulta popular, cabildo abierto, revocatoria",
+      "Colombia: Estado social de derecho"
+     ],
+     "example": "Si un servicio urgente de salud es negado, se puede presentar una acción de tutela.",
+     "yt": "constitución 1991 mecanismos de participación ciudadana",
+     "questions": [
+      {
+       "q": "¿Qué mecanismo permite proteger de forma rápida un derecho fundamental?",
+       "o": [
+        "el plebiscito",
+        "la acción de tutela",
+        "el cabildo abierto",
+        "el decreto"
+       ],
+       "a": 1,
+       "e": "La tutela se resuelve en pocos días."
+      },
+      {
+       "q": "¿En qué año se expidió la actual Constitución Política de Colombia?",
+       "o": [
+        "2001",
+        "1991",
+        "1950",
+        "1886"
+       ],
+       "a": 1,
+       "e": "La Asamblea Nacional Constituyente la expidió en 1991."
+      },
+      {
+       "q": "La revocatoria del mandato permite a los ciudadanos…",
+       "o": [
+        "terminar el mandato de un alcalde o gobernador elegido",
+        "elegir al presidente",
+        "aprobar el presupuesto",
+        "crear impuestos"
+       ],
+       "a": 0,
+       "e": "Es un mecanismo de control político de los votantes."
+      }
+     ],
+     "video": "assets/videos/soc9a.mp4"
+    },
+    {
+     "id": "soc9b",
+     "grade": 9,
+     "title": "La Revolución Industrial",
+     "summary": "Comenzó en Gran Bretaña a mediados del siglo XVIII. Las máquinas y las fábricas reemplazaron gran parte del trabajo artesanal. Trajo urbanización, una nueva clase obrera y también explotación laboral.",
+     "points": [
+      "Origen: Gran Bretaña, siglo XVIII",
+      "Invento clave: la máquina de vapor",
+      "Consecuencias: ciudades, clase obrera y movimientos sindicales"
+     ],
+     "example": "Las fábricas textiles pasaron de talleres artesanales a producción con máquinas.",
+     "yt": "revolución industrial causas consecuencias",
+     "questions": [
+      {
+       "q": "¿En qué país comenzó la Revolución Industrial?",
+       "o": [
+        "Colombia",
+        "Gran Bretaña",
+        "Japón",
+        "Brasil"
+       ],
+       "a": 1,
+       "e": "Allí se concentraron carbón, capital y nuevas máquinas."
+      },
+      {
+       "q": "¿Qué invento fue clave para mover máquinas y trenes?",
+       "o": [
+        "el telégrafo",
+        "el computador",
+        "la imprenta",
+        "la máquina de vapor"
+       ],
+       "a": 3,
+       "e": "Permitió mecanizar la producción y el transporte."
+      },
+      {
+       "q": "Una consecuencia social de la Revolución Industrial fue…",
+       "o": [
+        "la desaparición del comercio",
+        "el fin de las fábricas",
+        "la reducción de la población urbana",
+        "el crecimiento de las ciudades y de la clase obrera"
+       ],
+       "a": 3,
+       "e": "Muchas personas migraron del campo a las ciudades para trabajar."
+      }
+     ],
+     "video": "assets/videos/soc9b.mp4"
+    },
+    {
+     "id": "soc10a",
+     "grade": 10,
+     "title": "La Guerra Fría",
+     "summary": "Entre 1947 y 1991 aproximadamente, Estados Unidos (capitalismo) y la Unión Soviética (comunismo) compitieron por influencia mundial sin enfrentarse directamente: carrera armamentista, carrera espacial y guerras indirectas.",
+     "points": [
+      "Superpotencias: EE. UU. y URSS",
+      "Hechos: crisis de los misiles (1962), guerras de Corea y Vietnam",
+      "Fin: caída del Muro de Berlín (1989) y disolución de la URSS (1991)"
+     ],
+     "example": "La carrera espacial incluyó el lanzamiento del Sputnik (1957) y la llegada a la Luna (1969).",
+     "yt": "guerra fría resumen",
+     "questions": [
+      {
+       "q": "¿Qué dos potencias protagonizaron la Guerra Fría?",
+       "o": [
+        "Francia y Alemania",
+        "Reino Unido y España",
+        "China y Japón",
+        "Estados Unidos y la Unión Soviética"
+       ],
+       "a": 3,
+       "e": "Representaban capitalismo y comunismo."
+      },
+      {
+       "q": "¿Qué hecho simboliza el fin de la Guerra Fría?",
+       "o": [
+        "la Revolución Francesa",
+        "la caída del Muro de Berlín",
+        "la Primera Guerra Mundial",
+        "el Tratado de Versalles"
+       ],
+       "a": 1,
+       "e": "Ocurrió en 1989."
+      },
+      {
+       "q": "Se llamó «fría» porque…",
+       "o": [
+        "hizo mucho frío",
+        "no hubo un enfrentamiento militar directo entre las dos potencias",
+        "no hubo conflictos en el mundo",
+        "terminó en invierno"
+       ],
+       "a": 1,
+       "e": "La confrontación fue indirecta e ideológica."
+      }
+     ],
+     "video": "assets/videos/soc10a.mp4"
+    },
+    {
+     "id": "soc10b",
+     "grade": 10,
+     "title": "Derechos Humanos y DIH",
+     "summary": "Los derechos humanos pertenecen a toda persona por el solo hecho de serlo. La Declaración Universal se adoptó en 1948. El Derecho Internacional Humanitario (Convenios de Ginebra) protege a la población civil durante los conflictos armados.",
+     "points": [
+      "DDHH: universales, inalienables e indivisibles",
+      "Declaración Universal: 1948 (ONU)",
+      "DIH: limita la guerra y protege a civiles, heridos y prisioneros"
+     ],
+     "example": "Atacar a un hospital en medio de una guerra viola el DIH.",
+     "yt": "derechos humanos DIH diferencias",
+     "questions": [
+      {
+       "q": "¿En qué año se adoptó la Declaración Universal de los Derechos Humanos?",
+       "o": [
+        "2000",
+        "1948",
+        "1991",
+        "1789"
+       ],
+       "a": 1,
+       "e": "Fue aprobada por la ONU tras la Segunda Guerra Mundial."
+      },
+      {
+       "q": "El Derecho Internacional Humanitario se aplica principalmente en…",
+       "o": [
+        "negociaciones comerciales",
+        "competencias deportivas",
+        "conflictos armados",
+        "elecciones"
+       ],
+       "a": 2,
+       "e": "Regula la conducción de las hostilidades."
+      },
+      {
+       "q": "Que los derechos humanos sean «universales» significa que…",
+       "o": [
+        "corresponden a todas las personas sin discriminación",
+        "se compran",
+        "solo aplican en algunos países",
+        "dependen del gobierno de turno"
+       ],
+       "a": 0,
+       "e": "Nadie puede ser excluido de ellos."
+      }
+     ],
+     "video": "assets/videos/soc10b.mp4"
+    },
+    {
+     "id": "soc11a",
+     "grade": 11,
+     "title": "Globalización",
+     "summary": "La globalización es la creciente interconexión económica, cultural, política y tecnológica entre los países. Ofrece oportunidades de comercio e información, pero también genera desigualdades y riesgos para las culturas locales.",
+     "points": [
+      "Ejemplos: internet, tratados de libre comercio, empresas multinacionales",
+      "Ventajas: comercio, acceso a información, intercambio cultural",
+      "Retos: desigualdad, dependencia y pérdida de identidad cultural"
+     ],
+     "example": "Un celular se diseña en un país, se arma en otro y se vende en todo el mundo.",
+     "yt": "globalización ventajas desventajas",
+     "questions": [
+      {
+       "q": "La globalización es…",
+       "o": [
+        "un tipo de gobierno",
+        "el aislamiento económico",
+        "la creciente interconexión entre países",
+        "un fenómeno solo climático"
+       ],
+       "a": 2,
+       "e": "Abarca economía, cultura, política y tecnología."
+      },
+      {
+       "q": "¿Cuál es un ejemplo de globalización económica?",
+       "o": [
+        "un censo escolar",
+        "una fiesta local",
+        "un tratado de libre comercio",
+        "una ley municipal"
+       ],
+       "a": 2,
+       "e": "Facilita el intercambio de bienes entre países."
+      },
+      {
+       "q": "Una posible desventaja de la globalización es…",
+       "o": [
+        "la pérdida de identidad cultural y el aumento de desigualdades",
+        "menos comercio",
+        "ninguna, no tiene desventajas",
+        "menos información disponible"
+       ],
+       "a": 0,
+       "e": "Las culturas locales pueden verse desplazadas por modelos externos."
+      }
+     ],
+     "video": "assets/videos/soc11a.mp4"
+    },
+    {
+     "id": "soc11b",
+     "grade": 11,
+     "title": "Ramas del poder público",
+     "summary": "En Colombia el poder público se divide en tres ramas: legislativa (hace las leyes), ejecutiva (gobierna y ejecuta) y judicial (administra justicia). Además existen órganos de control y organismos electorales.",
+     "points": [
+      "Legislativa: Congreso (Senado y Cámara)",
+      "Ejecutiva: Presidente, gobernadores y alcaldes",
+      "Judicial: jueces y altas cortes · Control: Procuraduría, Contraloría, Defensoría"
+     ],
+     "example": "Una ley aprobada por el Congreso es sancionada por el Presidente y aplicada por los jueces.",
+     "yt": "ramas del poder público colombia",
+     "questions": [
+      {
+       "q": "¿Qué rama del poder público crea las leyes?",
+       "o": [
+        "la legislativa",
+        "la judicial",
+        "la ejecutiva",
+        "la electoral"
+       ],
+       "a": 0,
+       "e": "El Congreso de la República hace las leyes."
+      },
+      {
+       "q": "La rama judicial se encarga de…",
+       "o": [
+        "recaudar impuestos",
+        "hacer las leyes",
+        "administrar justicia",
+        "organizar elecciones"
+       ],
+       "a": 2,
+       "e": "Los jueces y las cortes aplican la ley."
+      },
+      {
+       "q": "¿Qué entidad defiende y promueve los derechos humanos de los ciudadanos?",
+       "o": [
+        "el Senado",
+        "la Defensoría del Pueblo",
+        "la Contraloría",
+        "la Registraduría"
+       ],
+       "a": 1,
+       "e": "Hace parte del Ministerio Público junto con la Procuraduría."
+      }
+     ],
+     "video": "assets/videos/soc11b.mp4"
+    }
+   ]
+  }
+ ]
+}
